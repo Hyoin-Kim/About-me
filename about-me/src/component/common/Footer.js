@@ -15,7 +15,8 @@ const FooterWrapper = styled.div`
         &__main{
             text-align: center;
             position : absolute;
-            left : 45%;
+            justify-content : center;
+            left : 43%;
         }
 
         &__icon{
@@ -40,8 +41,11 @@ const FooterWrapper = styled.div`
 `;
 
 
+
+
 const Footer = () => {
     return (
+        <>
         <FooterWrapper>
             <footer className="footer">
                 <div className="footer__main">
@@ -55,6 +59,7 @@ const Footer = () => {
                 </div>
             </footer>
         </FooterWrapper>
+      </>
     );
 };
 
