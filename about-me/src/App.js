@@ -1,4 +1,5 @@
 import {Header,Footer,AboutMe} from './component';
+import Skills from './component/common/Skills';
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
       <div>
         <Header/>
         <AboutMe/>
+        <Skills/>
         <Footer/>  
       </div>
   );
