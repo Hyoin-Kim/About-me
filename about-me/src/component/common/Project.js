@@ -1,13 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import {skills} from '../../assets/image/index';
+import {project} from '../../assets/image/index';
 
 const SkillsWrapper = styled.div`
 
     .skills{
         display : flex;
         justify-content : center;
-        background-color : #ECCEF5;
 
         &__img{
             margin-right : 10px;
@@ -44,10 +43,13 @@ const Project = () => {
             <SkillsWrapper>
                 <div>
                     <div className="skills">
-                        <img className="skills__img" src={skills} alt=""/>
+                        <img className="skills__img" src={project} alt=""/>
                         <h1 className="skills__title">Projects</h1>
                     </div>
+                    <div className="container">
+                    </div>
                 </div>
+                
             </SkillsWrapper>
         </div>
     );
