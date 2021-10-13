@@ -88,7 +88,7 @@ h1 span:nth-child(14){ animation-delay:.65s; }
     }
 
     .header{
-        font-family: 'Noto Sans Display', sans-serif;
+        font-family: 'Noto Sans KR', sans-serif;
         &__main{
             position: absolute;
             margin-top : 30px;
@@ -113,7 +113,7 @@ h1 span:nth-child(14){ animation-delay:.65s; }
             border-radius: 40px;
             box-shadow: 0 10px 40px rgba(159, 162, 177, .8);
             margin-left : 100px;
-            height : 100px;
+            height : 80px;
             align-items : center;
             margin-top : 20px;
             
@@ -126,7 +126,7 @@ h1 span:nth-child(14){ animation-delay:.65s; }
             transition: .3s;
             margin: 0 6px;
             z-index: 1;
-            font-family: 'DM Sans', sans-serif;
+            font-family: 'Noto Sans KR', sans-serif;
             font-weight: 500;
             font-size : 25px;
             position: relative;
@@ -139,7 +139,7 @@ h1 span:nth-child(14){ animation-delay:.65s; }
             left: 0;
             width: 100%;
             height: 5px;
-            background-color: #dfe2ea;
+            background-color: #F78181;
             border-radius: 8px 8px 0 0;
             opacity: 0;
             transition: .3s;
@@ -166,7 +166,7 @@ h1 span:nth-child(14){ animation-delay:.65s; }
         &__img{
             position:relative;
             display : flex;
-            opacity : 0.2;
+            opacity : 0.6;
             width: 100%;
             height : 600px;
         }
@@ -217,6 +217,7 @@ h1 span:nth-child(14){ animation-delay:.65s; }
         }
 
         h1 {
+        font-family: 'Noto Sans KR', sans-serif;
         color: #3e3e42;
         font-size:70px;
         font-weight: 800;
@@ -230,6 +231,10 @@ h1 span:nth-child(14){ animation-delay:.65s; }
         font-size: 30px;
         margin-bottom: 6px;
         transform: translateZ(25px);
+        }
+
+        h2{
+            font-family: 'Noto Sans KR', sans-serif;
         }
 
 `;
