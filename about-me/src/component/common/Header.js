@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { backgroundImg,profile,profile3 } from '../../assets/image';
 import { Navbar,Nav,NavDropdown,Form,Button,FormControl,Jumbotron } from 'react-bootstrap';
 
+
 const HeaderWrapper = styled.div`
 
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
@@ -235,6 +236,7 @@ h1 span:nth-child(14){ animation-delay:.65s; }
 
         h2{
             font-family: 'Noto Sans KR', sans-serif;
+            font-weight : bold;
         }
 
 `;
@@ -246,11 +248,9 @@ const Header = () => {
         <HeaderWrapper>
             <header className="header">
                 <div className="header__main">
-                <h1><span>A</span>
-                    <span>B</span>
-                    <span>O</span>
-                    <span>U</span>
-                    <span>T</span>
+                <h1><span>K</span>
+                    <span>I</span>
+                    <span>M</span>
                     <span>-</span>
                     <span>H</span>
                     <span>Y</span>
@@ -265,7 +265,7 @@ const Header = () => {
                         <a href="#" className="header__menu">ABOUT ME</a>
                         <a href="#" className="header__menu">SKILLS</a>
                         <a href="#" className="header__menu">PROJECTS</a>
-                        <a href="#" className="header__menu">CONTACT</a>
+                        <a href="#" className="header__menu">ACTIVITIES</a>
                         <span class="nav-indicator"></span>
                     </div>
                 </div>
@@ -278,10 +278,10 @@ const Header = () => {
                         <div class="middle__text">
                             <div className="middle__content">
                                 <div className="middle__detail">
-                                    <h3>Web Developer</h3>
+                                    <h3>Web Service Developer</h3>
                                     <h1>김 효 인</h1>
                                     <h2>안녕하세요</h2>
-                                    <h2>변화와 도전을 통해 끊임없이 부족함을 채우고 성장하며,</h2>
+                                    <h2>변화하는 트렌드에 맞춰 끊임없는 도전하며 성장하고,</h2>
                                     <h2>세상에 즐거움을 주고싶은 개발자 입니다.</h2>
                                 </div>
                             </div>

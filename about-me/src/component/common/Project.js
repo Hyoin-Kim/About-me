@@ -27,7 +27,7 @@ const SkillsWrapper = styled.div`
             text-shadow: 10px 10px 0px #d6f4f4,
             15px 15px 0px #F5A9F2,
             20px 20px 0px #CC2EFA,
-          cursor: pointer
+            cursor: pointer
         }
 
         &__title:hover {
@@ -35,6 +35,25 @@ const SkillsWrapper = styled.div`
             text-shadow: none;
         }
     }
+      
+      .myskills{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 0;
+
+        &__menu{
+            margin: 20px;
+        }
+
+        &__detail{
+            margin: 20px;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+      }
+      
+
 `;
 
 const Project = () => {
@@ -46,8 +65,14 @@ const Project = () => {
                         <img className="skills__img" src={project} alt=""/>
                         <h1 className="skills__title">Projects</h1>
                     </div>
-                    <div className="container">
-                    </div>
+                    <nav class="myskills">
+                        <div className="myskills__menu">
+                            <a className="myskills__detail" href="#">ALL</a>
+                            <a className="myskills__detail" href="#">FULL-STACK</a>
+                            <a className="myskills__detail" href="#">WEB-FRONT</a>
+                            <a className="myskills__detail" href="#">MACHINE LEARNING</a>
+                        </div>
+                    </nav>
                 </div>
                 
             </SkillsWrapper>

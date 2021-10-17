@@ -58,7 +58,7 @@ font-family: 'Noto Sans KR', sans-serif;
             border : 5px solid;
             border-color : #FFBF00;
             width : 1000px;
-            height : 500px;
+            height : 450px;
             border-radius : 30px;
             margin : 40px;
         }
@@ -111,8 +111,9 @@ font-family: 'Noto Sans KR', sans-serif;
         }
         &__img-next{
             display : inline-block;
-            width : 300px;
-            height: 150px;
+            width : 250px;
+            height: 120px;
+            padding-left :20px;
         }
         &__img-styled{
             display : inline-block;
@@ -122,11 +123,11 @@ font-family: 'Noto Sans KR', sans-serif;
         &__img-java{
             display : inline-block;
             width : 280px;
-            height: 200px;
+            height: 180px;
         }
         &__img-python{
             display : inline-block;
-            width : 280px;
+            width : 350px;
             height: 150px;
         }
         &__img-php{
@@ -173,19 +174,19 @@ const Skills = () => {
                             <img className="skills__img-html" src={html} alt=""/>
                             <img className="skills__img-react" src={react} alt=""/>
                             <img className="skills__img-ts" src={typescript} alt=""/>
-                            <img className="skills__img-styled" src={styledcomponent} alt=""/>
                             <img className="skills__img-jQuery" src={jQuery} alt=""/>
                             <img className="skills__img-redux" src={redux} alt=""/>
                             <img className="skills__img-next" src={nextjs} alt=""/>
+                            <img className="skills__img-styled" src={styledcomponent} alt=""/>
                         </div>
                         <div className="skills__back">
                             <div className="skills__detail">
                                 Back-end Skills
                             </div>
-                            <img className="skills__img-php" src={php} alt=""/>
                             <img className="skills__img-java" src={java} alt=""/>
                             <img className="skills__img-python" src={python} alt=""/>
                             <img className="skills__img-mysql" src={mysql} alt=""/>
+                            <img className="skills__img-php" src={php} alt=""/>
                         </div>
                         <div className="skills__back">
                             <div className="skills__detail">
