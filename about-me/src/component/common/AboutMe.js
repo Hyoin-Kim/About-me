@@ -125,7 +125,7 @@ const AboutMe = () => {
                         </div>
                         <div className="card__detail">
                             <img className="card__img" src={home} alt=""/>
-                            <div className="card__title">소재시 : </div>
+                            <div className="card__title">소재지 : </div>
                             <div className="card__content">서울특별시 노원구</div>
                         </div>
                         <div className="card__detail">
