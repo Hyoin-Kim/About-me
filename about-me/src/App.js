@@ -1,4 +1,4 @@
-import {Header,Footer,AboutMe,Skills,Project} from './component';
+import {Header,Footer,AboutMe,Skills,Project, Activity} from './component';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
         <AboutMe/>
         <Skills/>
         <Project />
+        <Activity/>
         <Footer/>  
       </div>
   );
