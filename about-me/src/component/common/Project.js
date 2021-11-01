@@ -70,9 +70,24 @@ const Project = () => {
                             <a className="myskills__detail" href="#">ALL</a>
                             <a className="myskills__detail" href="#">FULL-STACK</a>
                             <a className="myskills__detail" href="#">WEB-FRONT</a>
+                            <a className="myskills__detail" href="#">TOY-PROJECT</a>
                             <a className="myskills__detail" href="#">MACHINE LEARNING</a>
                         </div>
                     </nav>
+
+                    <nav>
+                        <div>
+                            <div>Open Together</div>
+                            <div>궁금붕어</div>
+                            <div>Ghibli Blog</div>
+                            <div>드론 촬영물에서의 개인정보 보호를 위한 AI 기반 클라우드 서비스</div>
+                            <div>About Me</div>
+                            <div>Diary App</div>
+                            <div>Shopping Mall</div>
+                            <div>Vanilla JS Project</div>
+                        </div>
+                    </nav>
+
                 </div>
                 
             </SkillsWrapper>
