@@ -29,3 +29,5 @@ export { default as zeplin } from './zeplin.png';
 export { default as slack } from './slack.png';
 export { default as ubuntu } from './ubuntu.png';
 export { default as github2 } from './github2.png';
+export { default as laravel } from './laravel.png';
+export { default as HyoinProfile } from './Hyoin-Profile.jpg';
