@@ -31,3 +31,4 @@ export { default as ubuntu } from './ubuntu.png';
 export { default as github2 } from './github2.png';
 export { default as laravel } from './laravel.png';
 export { default as HyoinProfile } from './Hyoin-Profile.jpg';
+export { default as society } from './society.png';
