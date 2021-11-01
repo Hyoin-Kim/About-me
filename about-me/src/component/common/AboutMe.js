@@ -139,7 +139,7 @@ const AboutMe = () => {
                             <div className="card__content">010-3535-7683</div>
                         </div>
                         <div className="card__group">
-                        <span className="card__hash">#웹서비스개발자</span>
+                        <span className="card__hash">#서비스플랫폼개발자</span>
                         <span className="card__hash">#밝고긍정적</span>
                         <span className="card__hash">#활발한소통능력</span>
                         <span className="card__hash">#도전적</span>
