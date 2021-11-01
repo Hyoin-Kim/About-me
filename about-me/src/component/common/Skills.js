@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {skills,html,react,typescript,styledcomponent,jQuery,redux,nextjs,python,java,mysql,php,notion,figma,zeplin,slack,github2,ubuntu} from '../../assets/image/index';
+import {skills,html,react,typescript,styledcomponent,jQuery,redux,nextjs,python,java,mysql,php,notion,figma,zeplin,slack,github2,ubuntu,laravel} from '../../assets/image/index';
 
 const SkillsWrapper = styled.div`
 
@@ -135,6 +135,11 @@ font-family: 'Noto Sans KR', sans-serif;
             width : 280px;
             height: 170px;
         }
+        &__img-laravel{
+            display : inline-block;
+            width : 380px;
+            height: 170px;
+        }
         &__img-mysql{
             display : inline-block;
             width : 220px;
@@ -187,6 +192,7 @@ const Skills = () => {
                             <img className="skills__img-python" src={python} alt=""/>
                             <img className="skills__img-mysql" src={mysql} alt=""/>
                             <img className="skills__img-php" src={php} alt=""/>
+                            <img className="skills__img-laravel" src={laravel} alt=""/>
                         </div>
                         <div className="skills__back">
                             <div className="skills__detail">
