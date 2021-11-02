@@ -23,6 +23,7 @@ const FooterWrapper = styled.div`
             margin-top : 50px;
         }
         &__btn{
+            margin : 5px;
             border : none;
             background-color : transparent;
         }
@@ -50,10 +51,10 @@ const Footer = () => {
             <footer className="footer">
                 <div className="footer__main">
                     <div className="footer__icon">
-                        <button className="footer__btn"><img className="footer__img" src={github} alt=""/></button>
-                        <button className="footer__btn"><img className="footer__img" src={gmail} alt=""/></button>
-                        <button className="footer__btn"><img className="footer__img" src={instagram} alt=""/></button>
-                        <button className="footer__btn"><img className="footer__img" src={facebook} alt=""/></button>
+                        <a className="footer__btn" href="https://github.com/Hyoin-Kim"><img className="footer__img" src={github} alt=""/></a>
+                        <a className="footer__btn" href="https://github.com/Hyoin-Kim"><img className="footer__img" src={gmail} alt=""/></a>
+                        <a className="footer__btn" href="https://www.instagram.com/luv.hi_"><img className="footer__img" src={instagram} alt=""/></a>
+                        <a className="footer__btn" href="https://www.facebook.com/profile.php?id=100006649662996"><img className="footer__img" src={facebook} alt=""/></a>
                     </div>
                     <div className="footer__content">© 2021. Kim Hyo in . All rights reserved.</div>
                 </div>
