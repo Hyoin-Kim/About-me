@@ -1,6 +1,10 @@
-import React from 'react';
+import {React,useState} from 'react';
 import styled from 'styled-components';
 import {project} from '../../assets/image/index';
+import ProjectReact from './projectList/ReactList';
+import JavascriptList from './projectList/JavascriptList';
+import JqueryList from './projectList/JqueryList';
+import MachineLearning from './projectList/MachineLearning';
 
 const SkillsWrapper = styled.div`
 
@@ -45,18 +49,65 @@ const SkillsWrapper = styled.div`
 
         &__menu{
             margin: 20px;
+            text-align : center;
         }
 
         &__detail{
             margin: 20px;
             font-family: 'Noto Sans KR', sans-serif;
+            font-size : 20px;
+            font-weight : bold;
+            border: none;
+            background-color : white;
+            transition: all 0.5s;
+        }
+        &__detail:hover{
+            color : #eb285d;
+            transition: all 0.5s;
+            font-size : 25px;
+        }
+        &__detail:focus{
+            color : #eb285d;
+            transition: all 0.5s;
+            font-size : 25px;
         }
       }
-      
-
 `;
 
 const Project = () => {
+    const [reactButton,setReactButton] = useState(false);
+    const [jsButton,setJsButton] = useState(false);
+    const [jqureyButton,setJqueryButton] = useState(false);
+    const [mlButton,setMlButton] = useState(false);
+
+    function handleAll(){
+
+
+    }
+    function handleReact(){
+        setReactButton(true);
+        setJsButton(false);
+        setJqueryButton(false);
+        setMlButton(false);
+    }
+    function handleJs(){
+        setJsButton(true);
+        setReactButton(false);
+        setJqueryButton(false);
+        setMlButton(false);
+    }
+    function handleJquery(){
+        setJqueryButton(true);
+        setJsButton(false);
+        setReactButton(false);
+        setMlButton(false);
+    }
+    function handleMl(){
+        setMlButton(true);
+        setJqueryButton(false);
+        setJsButton(false);
+        setReactButton(false);
+    }
     return (
         <div>
             <SkillsWrapper>
@@ -67,24 +118,40 @@ const Project = () => {
                     </div>
                     <nav class="myskills">
                         <div className="myskills__menu">
-                            <a className="myskills__detail" href="#">ALL</a>
-                            <a className="myskills__detail" href="#">FULL-STACK</a>
-                            <a className="myskills__detail" href="#">WEB-FRONT</a>
-                            <a className="myskills__detail" href="#">TOY-PROJECT</a>
-                            <a className="myskills__detail" href="#">MACHINE LEARNING</a>
+                            <button className="myskills__detail" onClick={()=>{handleAll()}}>ALL</button>
+                            <button className="myskills__detail" onClick={()=>{handleReact()}}>REACT</button>
+                            <button className="myskills__detail" onClick={()=>{handleJs()}}>JAVASCRIPT</button>
+                            <button className="myskills__detail" onClick={()=>{handleJquery()}}>JQUERY/PHP</button>
+                            <button className="myskills__detail" onClick={()=>{handleMl()}}>MACHINE LEARNING</button>
+                            {
+                                reactButton===true ? (
+                                    <ProjectReact/>
+                                ) : null
+                            }
+                            {
+                                jsButton===true ? (
+                                    <JavascriptList/>
+                                ) : null
+                            }
+                            {
+                                mlButton===true ? (
+                                    <MachineLearning/>
+                                ) : null
+                            }
+                            {
+                                jqureyButton===true ? (
+                                    <JqueryList/>
+                                ) : null
+                            }
                         </div>
                     </nav>
 
                     <nav>
                         <div>
-                            <div>Open Together</div>
-                            <div>궁금붕어</div>
-                            <div>Ghibli Blog</div>
-                            <div>드론 촬영물에서의 개인정보 보호를 위한 AI 기반 클라우드 서비스</div>
-                            <div>About Me</div>
-                            <div>Diary App</div>
-                            <div>Shopping Mall</div>
-                            <div>Vanilla JS Project</div>
+
+                            
+                            
+                            
                         </div>
                     </nav>
 
