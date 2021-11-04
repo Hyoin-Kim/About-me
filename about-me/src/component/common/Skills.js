@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {skills,html,react,typescript,styledcomponent,jQuery,redux,nextjs,python,java,mysql,php,notion,figma,zeplin,slack,github2,ubuntu,laravel} from '../../assets/image/index';
+import {skills,html,tf2,react,typescript,styledcomponent,jQuery,redux,nextjs,python,java,mysql,php,notion,figma,zeplin,slack,github2,ubuntu,laravel} from '../../assets/image/index';
 
 const SkillsWrapper = styled.div`
 
@@ -192,6 +192,7 @@ const Skills = () => {
                             <img className="skills__img-python" src={python} alt=""/>
                             <img className="skills__img-mysql" src={mysql} alt=""/>
                             <img className="skills__img-php" src={php} alt=""/>
+                            <img className="skills__img-redux" src={tf2} alt=""/>
                             <img className="skills__img-laravel" src={laravel} alt=""/>
                         </div>
                         <div className="skills__back">
