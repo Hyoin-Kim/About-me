@@ -67,6 +67,7 @@ font-family: 'Noto Sans Display', sans-serif;
             font-weight : bold;
             
         }
+        
         &__content{
             display : inline-block;
             font-family: 'Noto Sans KR', sans-serif;
