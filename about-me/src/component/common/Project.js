@@ -1,10 +1,8 @@
 import {React,useState} from 'react';
 import styled from 'styled-components';
 import {project} from '../../assets/image/index';
-import ProjectReact from './projectList/ReactList';
-import JavascriptList from './projectList/JavascriptList';
-import JqueryList from './projectList/JqueryList';
-import MachineLearning from './projectList/MachineLearning';
+import AllList from './projectList/AllList';
+import {ReactList,JqueryList,MachineLearning,JavascriptList} from '../index';
 
 const SkillsWrapper = styled.div`
 
@@ -81,9 +79,12 @@ const Project = () => {
     const [mlButton,setMlButton] = useState(false);
 
     function handleAll(){
-
-
+        setReactButton(false);
+        setJsButton(false);
+        setJqueryButton(false);
+        setMlButton(false);
     }
+
     function handleReact(){
         setReactButton(true);
         setJsButton(false);
@@ -125,7 +126,7 @@ const Project = () => {
                             <button className="myskills__detail" onClick={()=>{handleMl()}}>MACHINE LEARNING</button>
                             {
                                 reactButton===true ? (
-                                    <ProjectReact/>
+                                    <ReactList/>
                                 ) : null
                             }
                             {
@@ -145,18 +146,14 @@ const Project = () => {
                             }
                         </div>
                     </nav>
-
-                    <nav>
-                        <div>
-
-                            
-                            
-                            
-                        </div>
-                    </nav>
-
+                    {
+                        (reactButton===false && jsButton===false && mlButton===false && jqureyButton===false)
+                        ?
+                        <AllList/>
+                        :
+                        null
+                    }
                 </div>
-                
             </SkillsWrapper>
         </div>
     );
