@@ -89,67 +89,80 @@ font-family: 'Noto Sans KR', sans-serif;
             width : 350px;
             height: 150px;
         }
+
         &__img-ts{
             display : inline-block;
             width : 300px;
             height: 100px;
         }
+
         &__img-react{
             display : inline-block;
             width : 300px;
             height: 200px;
         }
+
         &__img-redux{
             display : inline-block;
             width : 300px;
             height: 160px;
         }
+
         &__img-jQuery{
             display : inline-block;
             width : 300px;
             height: 180px;
         }
+
         &__img-next{
             display : inline-block;
             width : 250px;
             height: 120px;
             padding-left :20px;
         }
+
         &__img-styled{
             display : inline-block;
             width : 220px;
             height: 200px;
         }
+
         &__img-java{
             display : inline-block;
             width : 280px;
             height: 180px;
         }
+        
         &__img-python{
             display : inline-block;
             width : 350px;
             height: 150px;
         }
+
         &__img-php{
             display : inline-block;
             width : 280px;
             height: 170px;
         }
+
         &__img-laravel{
             display : inline-block;
             width : 380px;
             height: 170px;
         }
+
         &__img-mysql{
             display : inline-block;
             width : 220px;
             height: 170px;
         }
+
         &__img-notion{
             display : inline-block;
             width : 280px;
             height: 170px;
         }
+        
         &__img-slack{
             display : inline-block;
             width : 330px;
