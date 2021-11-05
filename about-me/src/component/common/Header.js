@@ -260,14 +260,14 @@ const Header = () => {
 
                     <span>!</span>
                 </h1>
-                    <div className="header__content">
+                    {/* <div className="header__content">
                         <a href="#" className="header__menu">HOME</a>
                         <a href="#" className="header__menu">ABOUT ME</a>
                         <a href="#" className="header__menu">SKILLS</a>
                         <a href="#" className="header__menu">PROJECTS</a>
                         <a href="#" className="header__menu">ACTIVITIES</a>
                         <span class="nav-indicator"></span>
-                    </div>
+                    </div> */}
                 </div>
             </header>
         </HeaderWrapper>
