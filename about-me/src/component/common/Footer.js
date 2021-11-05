@@ -1,5 +1,5 @@
 import React from 'react';
-import { github,gmail,facebook,instagram } from '../../assets/image/index';
+import { github,blog,facebook,instagram } from '../../assets/image/index';
 import styled from 'styled-components';
 
 
@@ -22,6 +22,7 @@ const FooterWrapper = styled.div`
         &__icon{
             margin-top : 50px;
         }
+        
         &__btn{
             margin : 5px;
             border : none;
@@ -41,9 +42,6 @@ const FooterWrapper = styled.div`
     }
 `;
 
-
-
-
 const Footer = () => {
     return (
         <>
@@ -52,7 +50,7 @@ const Footer = () => {
                 <div className="footer__main">
                     <div className="footer__icon">
                         <a className="footer__btn" href="https://github.com/Hyoin-Kim"><img className="footer__img" src={github} alt=""/></a>
-                        <a className="footer__btn" href="https://github.com/Hyoin-Kim"><img className="footer__img" src={gmail} alt=""/></a>
+                        <a className="footer__btn" href="https://velog.io/@hi980506"><img className="footer__img" src={blog} alt=""/></a>
                         <a className="footer__btn" href="https://www.instagram.com/luv.hi_"><img className="footer__img" src={instagram} alt=""/></a>
                         <a className="footer__btn" href="https://www.facebook.com/profile.php?id=100006649662996"><img className="footer__img" src={facebook} alt=""/></a>
                     </div>
