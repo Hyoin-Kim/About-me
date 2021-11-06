@@ -2,7 +2,7 @@ import {React,useState} from 'react';
 import styled from 'styled-components';
 import {project} from '../../assets/image/index';
 import AllList from './projectList/AllList';
-import {ReactList,JqueryList,MachineLearning,JavascriptList} from '../index';
+import {ReactList,JqueryList,MachineLearning,JavascriptList,InternProject} from '../index';
 
 const SkillsWrapper = styled.div`
 
@@ -77,12 +77,14 @@ const Project = () => {
     const [jsButton,setJsButton] = useState(false);
     const [jqureyButton,setJqueryButton] = useState(false);
     const [mlButton,setMlButton] = useState(false);
+    const [internButton,setInternButton] = useState(false);
 
     function handleAll(){
         setReactButton(false);
         setJsButton(false);
         setJqueryButton(false);
         setMlButton(false);
+        setInternButton(false);
     }
 
     function handleReact(){
@@ -90,24 +92,35 @@ const Project = () => {
         setJsButton(false);
         setJqueryButton(false);
         setMlButton(false);
+        setInternButton(false);
     }
     function handleJs(){
         setJsButton(true);
         setReactButton(false);
         setJqueryButton(false);
         setMlButton(false);
+        setInternButton(false);
     }
     function handleJquery(){
         setJqueryButton(true);
         setJsButton(false);
         setReactButton(false);
         setMlButton(false);
+        setInternButton(false);
     }
     function handleMl(){
         setMlButton(true);
         setJqueryButton(false);
         setJsButton(false);
         setReactButton(false);
+        setInternButton(false);
+    }
+    function handleIntern(){
+        setMlButton(false);
+        setJqueryButton(false);
+        setJsButton(false);
+        setReactButton(false);
+        setInternButton(true);
     }
     return (
         <div>
@@ -123,6 +136,7 @@ const Project = () => {
                             <button className="myskills__detail" onClick={()=>{handleReact()}}>REACT</button>
                             <button className="myskills__detail" onClick={()=>{handleJs()}}>JAVASCRIPT</button>
                             <button className="myskills__detail" onClick={()=>{handleJquery()}}>JQUERY/PHP</button>
+                            <button className="myskills__detail" onClick={()=>{handleIntern()}}>INTERN</button>
                             <button className="myskills__detail" onClick={()=>{handleMl()}}>MACHINE LEARNING</button>
                             {
                                 reactButton===true ? (
@@ -144,10 +158,15 @@ const Project = () => {
                                     <JqueryList/>
                                 ) : null
                             }
+                            {
+                                internButton===true ? (
+                                    <InternProject/>
+                                ) : null
+                            }
                         </div>
                     </nav>
                     {
-                        (reactButton===false && jsButton===false && mlButton===false && jqureyButton===false)
+                        (reactButton===false && jsButton===false && mlButton===false && jqureyButton===false && internButton===false)
                         ?
                         <AllList/>
                         :

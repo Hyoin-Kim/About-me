@@ -1,6 +1,7 @@
 import React from 'react';
 import {ReactList,JqueryList,MachineLearning,JavascriptList} from '../../index';
 import styled from 'styled-components';
+import InternProject from './InternProject';
 
 const Wrapper = styled.div`
     .main{
@@ -22,6 +23,9 @@ const AllList = () => {
                 </div>
                 <div className="list">
                     <JqueryList/>
+                </div>
+                <div className="list">
+                    <InternProject/>
                 </div>
                 <div className="list">
                     <MachineLearning/>

@@ -279,7 +279,7 @@ const ReactProject = () => {
                                     <h5 className="modal__subtitle">Diary App, Shopping mall, Github profile finder, Clone Coding 등 진행 </h5>
                                     <hr className="modal__hr"/>
                                     <p>IT 연합 창업동아리 SOPT 세미나, React 스터디에서 진행한 <span className="modal__o2Title"> 웹 사이트 리스트</span> 입니다.</p>
-                                    <p>다이어리 앱(#1), Ghibli 굿즈 쇼핑몰(#2), Github profile finder(#3), Folin Clone Coding(#4) 등 꾸준히 토이 프로젝트를 진행하였습니다.</p>
+                                    <p>다이어리 앱(#1,#2), Ghibli 굿즈 쇼핑몰(#3,#4), Github profile finder(#5), Folin Clone Coding(#6) 등 꾸준히 토이 프로젝트를 진행하였습니다.</p>
                                     <p>React 공부를 중점적으로 하여 스터디와 세미나를 통해 코드리뷰 등 함께 공부하고 공유할수 있었습니다.</p>
                                     <p><span>React, Javascript를 활용하여 개발하였으며, 프론트엔드의 전반적인 공부를 하는데 좋은 경험</span>이 되었습니다.</p>
                                 </div>

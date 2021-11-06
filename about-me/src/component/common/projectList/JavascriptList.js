@@ -155,7 +155,7 @@ const JavascriptList = () => {
                                         <h5 className="modal__subtitle">Weather App, Paint App, To do List, Velog Clone, Smartphone-emulation</h5>
                                         <hr className="modal__hr"/>
                                         <p><span className="modal__jsTitle">순수 자바스크립트 하나로 개발한 토이 프로젝트</span> 입니다.</p>
-                                        <p>Weather App(#1), Paint App(#2), To do List(#3), Velog Clone(#4), Smartphone-emulation(#5) </p>
+                                        <p>Weather App(#1), To do List(#2), Velog Clone(#3), Paint App(#4), Smartphone-emulation(#5) </p>
                                         <p>등 로컬스토리지를 활용하여 개발을 진행하였습니다.</p>
                                         <p>Smartphone-emulation(#5)은 알람(추가/삭제), 메모(추가/삭제/상세보기), 갤러리 기능을 구현하였습니다.</p>
                                         <p>이외의 토이 프로젝트 기능은 Github을 통해 확인 가능합니다.</p>

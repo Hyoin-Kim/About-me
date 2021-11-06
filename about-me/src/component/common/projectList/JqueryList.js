@@ -156,10 +156,10 @@ const JqueryList = () => {
                                     <h5 className="modal__subtitle">Studio Ghibli 테마 기반의 웹서비스</h5>
                                     <hr className="modal__hr"/>
                                     <p>Studio Ghibli 테마 기반의 게시판, 앨범 등 <span className="modal__jsTitle">타인과 소통하고 공유하는 웹서비스</span> 입니다.</p>
-                                    <p>프론트단에서 JQuery를 활용한 Javascript, 백엔드의 laravel 프레임워크를 활용한 php언어로 개발하였습니다.</p>
-                                    <p>앨범(#2), 게시판(#3), 친구추가(#4), 메세지함(#5), 게시물 좋아요/싫어요, 댓글 등의 기능 구현하였습니다.</p>
+                                    <p>프론트단의 JQuery를 활용한 Javascript, 백엔드의 laravel 프레임워크를 활용한 php로 개발하였습니다.</p>
+                                    <p>앨범(#2), 게시판(#3), 친구추가(#4), 메세지함(#5), 게시물 좋아요/싫어요 등의 기능 구현하였습니다.</p>
                                     <p>전체적인 <span>웹 페이지 기획 및 UI/UX Wireframe 그려 원활한 개발 진행하였으며, MVC 패턴을 이용한 CRUD 활용</span>하였습니다.</p>
-                                    <p><span>프로젝트 기획, 개발, 리팩토링 모두 혼자 배우고 공부하며 구현한 프로젝트</span> 입니다.</p>
+                                    <p><span>프로젝트 기획, 개발, 배포(AWS 서버) 및 운영, 리팩토링 모두 혼자 배우고 공부하며 처음과 끝을 함께한 프로젝트</span> 입니다.</p>
                                 </div>
                                 <img className="closeIcon" src={closeIcon} alt="" onClick={()=>{setGhibliModal(false)}}/>
                             </ModalWrapper>

@@ -130,13 +130,13 @@ font-family: 'Noto Sans KR', sans-serif;
         &__img-java{
             display : inline-block;
             width : 280px;
-            height: 180px;
+            height: 150px;
         }
         
         &__img-python{
             display : inline-block;
-            width : 350px;
-            height: 150px;
+            width : 330px;
+            height: 130px;
         }
 
         &__img-php{
@@ -153,8 +153,8 @@ font-family: 'Noto Sans KR', sans-serif;
 
         &__img-mysql{
             display : inline-block;
-            width : 220px;
-            height: 170px;
+            width : 200px;
+            height: 140px;
         }
 
         &__img-notion{
