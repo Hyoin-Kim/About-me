@@ -76,3 +76,5 @@ export { default as netChallenge6 } from './projectImg/netChallenge6.png';
 export { default as netChallenge7 } from './projectImg/netChallenge7.png';
 export { default as netChallenge8 } from './projectImg/netChallenge8.jpg';
 export { default as aboutmeSlider } from './projectImg/aboutmeSlider.JPG';
+export { default as intern } from './projectImg/intern.JPG';
+export { default as video } from '../video/video.mp4';
