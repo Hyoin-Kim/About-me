@@ -8,3 +8,4 @@ export { default as JavascriptList } from './common/projectList/JavascriptList';
 export { default as MachineLearning } from './common/projectList/MachineLearning';
 export { default as JqueryList } from './common/projectList/JqueryList';
 export { default as ReactList} from './common/projectList/ReactList';
+export { default as InternProject} from './common/projectList/InternProject';
