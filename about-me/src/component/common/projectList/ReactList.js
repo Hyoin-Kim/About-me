@@ -184,7 +184,7 @@ const ReactProject = () => {
                                     <p>창업가들, 예비창업가들의 앞으로 펼쳐질 창업을 위한 <span className="modal__o2Title">회고 커뮤니티 사이트</span>입니다.</p>
                                     <p>LearnMyself를 통해 회고 이야기를 공유할 수 있고, ShareTogether을 통해 창업가들의 성공 스토리를 공유할 수 있습니다.</p>
                                     <p><span>기획,디자인,서버,웹파트원과 협업한 장기 프로젝트</span>이며, 지금도 꾸준히 개발, QA, 운영하고 있습니다.</p>
-                                    <p><span>React, Typescript</span>로 개발하였으며, 리팩토링과 함께 <span>Atomic Design와 NextJS </span>적용하였습니다.</p>
+                                    <p><span>React, Typescript</span>로 개발하였으며, 리팩토링과 함께 <span>Atomic Design과 NextJS </span>적용하였습니다.</p>
                                     <p>메인페이지(#1), LearnMyself(#2), ShareTogether(#3), 마이페이지(#4), 관리자 페이지(#7, #8) 등 약 20개의 뷰 구현하였으며  
                                         <span className="modal__o2Title"> 최우수상</span>을 수상하였습니다.</p>
                                 </div>
@@ -279,7 +279,7 @@ const ReactProject = () => {
                                     <h5 className="modal__subtitle">Diary App, Shopping mall, Github profile finder, Clone Coding 등 진행 </h5>
                                     <hr className="modal__hr"/>
                                     <p>IT 연합 창업동아리 SOPT 세미나, React 스터디에서 진행한 <span className="modal__o2Title"> 웹 사이트 리스트</span> 입니다.</p>
-                                    <p>다이어리 앱(#1,#2), Ghibli 굿즈 쇼핑몰(#3,#4), Github profile finder(#5), Folin Clone Coding(#6) 등 꾸준히 토이 프로젝트를 진행하였습니다.</p>
+                                    <p>다이어리 앱(#1,#2), Ghibli 굿즈 쇼핑몰(#3,#4), Github profile finder(#5), Folin Clone Coding 등 꾸준히 토이 프로젝트를 진행하였습니다.</p>
                                     <p>React 공부를 중점적으로 하여 스터디와 세미나를 통해 코드리뷰 등 함께 공부하고 공유할수 있었습니다.</p>
                                     <p><span>React, Javascript를 활용하여 개발하였으며, 프론트엔드의 전반적인 공부를 하는데 좋은 경험</span>이 되었습니다.</p>
                                 </div>

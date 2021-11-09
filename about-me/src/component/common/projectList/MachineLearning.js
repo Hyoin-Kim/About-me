@@ -50,6 +50,7 @@ const ModalWrapper = styled.div`
         background-color: white;
         width: 700px;
         height: 800px;
+        z-index:1;
 
         .closeIcon{
             width:20px;
@@ -107,6 +108,7 @@ const Modal = styled.div`
     position: fixed;
     top:0; left: 0; bottom: 0; right: 0;
     background: rgba(0, 0, 0, 0.8);
+    z-index:1;
 
 `;
 const MachineLearning = () => {
@@ -154,7 +156,7 @@ const MachineLearning = () => {
                                         <p><span>SDI Public Cloud 서버로 Ubuntu를 활용하여 Python, Tensorflow, OpenCV 환경 구축</span>하였습니다.</p>
                                         <p>라즈베리파이 OS를 구축하고 카메라를 연결해 <span>실시간 촬영물을 받아오도록 소켓통신을 진행</span>하였습니다.</p>
                                         <p>촬영 영상을 <span>frame 단위로 잘라 실시간으로 서버에 전송하고, 사용자는 웹을 통해 확인</span>할 수 있습니다.</p>
-                                        <p>아이디어 기획 및 개발(리눅스 서버 구축, 특정인 데이터 학습, python 개발, 웹구축)을 담당하였으며 은상을 수상하였습니다.</p>
+                                        <p>아이디어 기획 및 개발(리눅스 서버 구축, 특정인 데이터 학습, python 개발, 웹 구축)을 담당하였으며 은상을 수상하였습니다.</p>
                                     </div>
                                     <img className="closeIcon" src={closeIcon} alt="" onClick={()=>{setGhibliModal(false)}}/>
                                 </ModalWrapper>
