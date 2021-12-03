@@ -1,6 +1,27 @@
-import React from 'react';
-import styled from 'styled-components';
-import {skills,html,tf2,react,typescript,styledcomponent,jQuery,redux,nextjs,python,java,mysql,php,notion,figma,zeplin,slack,github2,ubuntu,laravel} from '../../assets/image/index';
+import React from "react";
+import styled from "styled-components";
+import {
+  skills,
+  html,
+  tf2,
+  react,
+  typescript,
+  styledcomponent,
+  jQuery,
+  redux,
+  nextjs,
+  python,
+  java,
+  mysql,
+  php,
+  notion,
+  figma,
+  zeplin,
+  slack,
+  github2,
+  ubuntu,
+  laravel,
+} from "../../assets/image/index";
 
 const SkillsWrapper = styled.div`
 
@@ -176,59 +197,51 @@ font-family: 'Noto Sans KR', sans-serif;
 `;
 
 const Skills = () => {
-    return (
+  return (
+    <div>
+      <SkillsWrapper>
         <div>
-            <SkillsWrapper>
-                <div>
-                    <div className="skills">
-                        <img className="skills__img" src={skills} alt=""/>
-                        <h1 className="skills__title">SKILLS</h1>
-                    </div>
-                    <div className="skills__card">
-                        <div className="skills__front">
-                            <div className="skills__detail">
-                                Front-end Skills
-                            </div>
-                            <img className="skills__img-html" src={html} alt=""/>
-                            <img className="skills__img-react" src={react} alt=""/>
-                            <img className="skills__img-ts" src={typescript} alt=""/>
-                            <img className="skills__img-jQuery" src={jQuery} alt=""/>
-                            <img className="skills__img-redux" src={redux} alt=""/>
-                            <img className="skills__img-next" src={nextjs} alt=""/>
-                            <img className="skills__img-styled" src={styledcomponent} alt=""/>
-                        </div>
-                        <div className="skills__back">
-                            <div className="skills__detail">
-                                Back-end Skills
-                            </div>
-                            <img className="skills__img-java" src={java} alt=""/>
-                            <img className="skills__img-python" src={python} alt=""/>
-                            <img className="skills__img-mysql" src={mysql} alt=""/>
-                            <img className="skills__img-php" src={php} alt=""/>
-                            <img className="skills__img-redux" src={tf2} alt=""/>
-                            <img className="skills__img-laravel" src={laravel} alt=""/>
-                        </div>
-                        <div className="skills__back">
-                            <div className="skills__detail">
-                                Communication Skills
-                            </div>
-                            <img className="skills__img-figma" src={figma} alt=""/>
-                            <img className="skills__img-zeplin" src={zeplin} alt=""/>
-                            <img className="skills__img-notion" src={notion} alt=""/>
-                            <img className="skills__img-slack" src={slack} alt=""/>
-                        </div>
-                        <div className="skills__version">
-                            <div className="skills__detail">
-                                Version Control Skills
-                            </div>
-                            <img className="skills__img-python" src={ubuntu} alt=""/>
-                            <img className="skills__img-slack" src={github2} alt=""/>
-                        </div>
-                    </div>
-                </div>
-            </SkillsWrapper>
+          <div className="skills">
+            <img className="skills__img" src={skills} alt="" />
+            <h1 className="skills__title">SKILLS</h1>
+          </div>
+          <div className="skills__card">
+            <div className="skills__front">
+              <div className="skills__detail">Front-end Skills</div>
+              <img className="skills__img-html" src={html} alt="" />
+              <img className="skills__img-react" src={react} alt="" />
+              <img className="skills__img-ts" src={typescript} alt="" />
+              <img className="skills__img-jQuery" src={jQuery} alt="" />
+              <img className="skills__img-redux" src={redux} alt="" />
+              <img className="skills__img-next" src={nextjs} alt="" />
+              <img className="skills__img-styled" src={styledcomponent} alt="" />
+            </div>
+            <div className="skills__back">
+              <div className="skills__detail">Back-end Skills</div>
+              <img className="skills__img-java" src={java} alt="" />
+              <img className="skills__img-python" src={python} alt="" />
+              <img className="skills__img-mysql" src={mysql} alt="" />
+              <img className="skills__img-php" src={php} alt="" />
+              <img className="skills__img-redux" src={tf2} alt="" />
+              <img className="skills__img-laravel" src={laravel} alt="" />
+            </div>
+            <div className="skills__back">
+              <div className="skills__detail">Communication Skills</div>
+              <img className="skills__img-figma" src={figma} alt="" />
+              <img className="skills__img-zeplin" src={zeplin} alt="" />
+              <img className="skills__img-notion" src={notion} alt="" />
+              <img className="skills__img-slack" src={slack} alt="" />
+            </div>
+            <div className="skills__version">
+              <div className="skills__detail">Version Control Skills</div>
+              <img className="skills__img-python" src={ubuntu} alt="" />
+              <img className="skills__img-slack" src={github2} alt="" />
+            </div>
+          </div>
         </div>
-    );
+      </SkillsWrapper>
+    </div>
+  );
 };
 
 export default Skills;

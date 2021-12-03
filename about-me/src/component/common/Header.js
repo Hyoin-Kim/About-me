@@ -1,8 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import { backgroundImg,profile,profile3 } from '../../assets/image';
-import { Navbar,Nav,NavDropdown,Form,Button,FormControl,Jumbotron } from 'react-bootstrap';
-
+import React from "react";
+import styled from "styled-components";
+import { backgroundImg } from "../../assets/image";
+import { Navbar } from "react-bootstrap";
 
 const HeaderWrapper = styled.div`
 
@@ -49,13 +48,13 @@ const HeaderWrapper = styled.div`
     h1 span:nth-child(13){ animation-delay:.6s; }
     h1 span:nth-child(14){ animation-delay:.65s; }
 
-@font-face {
-    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
-      format("woff2");
-    font-family: "Meta";
-    font-style: normal;
-    font-weight: normal;
-  }
+    @font-face {
+        src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+        format("woff2");
+        font-family: "Meta";
+        font-style: normal;
+        font-weight: normal;
+    }
   
     .body {
         box-sizing: border-box;
@@ -80,7 +79,7 @@ const HeaderWrapper = styled.div`
         text-shadow: 10px 10px 0px #d6f4f4,
         15px 15px 0px #F5A9F2,
         20px 20px 0px #CC2EFA,
-      cursor: pointer;
+        cursor: pointer;
     }
     
     .header__title:hover {
@@ -117,7 +116,6 @@ const HeaderWrapper = styled.div`
             height : 80px;
             align-items : center;
             margin-top : 20px;
-            
         }
 
         &__menu{
@@ -241,56 +239,48 @@ const HeaderWrapper = styled.div`
 
 `;
 
-
 const Header = () => {
-    return (
-        <>
-        <HeaderWrapper>
-            <header className="header">
-                <div className="header__main">
-                <h1><span>K</span>
-                    <span>I</span>
-                    <span>M</span>
-                    <span>-</span>
-                    <span>H</span>
-                    <span>Y</span>
-                    <span>O</span>
-                    <span>I</span>
-                    <span>N</span>
+  return (
+    <>
+      <HeaderWrapper>
+        <header className="header">
+          <div className="header__main">
+            <h1>
+              <span>K</span>
+              <span>I</span>
+              <span>M</span>
+              <span>-</span>
+              <span>H</span>
+              <span>Y</span>
+              <span>O</span>
+              <span>I</span>
+              <span>N</span>
 
-                    <span>!</span>
-                </h1>
-                    {/* <div className="header__content">
-                        <a href="#" className="header__menu">HOME</a>
-                        <a href="#" className="header__menu">ABOUT ME</a>
-                        <a href="#" className="header__menu">SKILLS</a>
-                        <a href="#" className="header__menu">PROJECTS</a>
-                        <a href="#" className="header__menu">ACTIVITIES</a>
-                        <span class="nav-indicator"></span>
-                    </div> */}
+              <span>!</span>
+            </h1>
+          </div>
+        </header>
+      </HeaderWrapper>
+      <HeaderWrapper>
+        <Navbar bg="light" expand="lg" className="">
+          <img className="middle__img" src={backgroundImg} alt="" />
+          <div className="middle">
+            <div class="middle__text">
+              <div className="middle__content">
+                <div className="middle__detail">
+                  <h3>Web Service Developer</h3>
+                  <h1>김 효 인</h1>
+                  <h2>안녕하세요</h2>
+                  <h2>변화하는 트렌드에 맞춰 끊임없이 도전하며 성장하고,</h2>
+                  <h2>세상에 즐거움을 주고싶은 개발자 입니다.</h2>
                 </div>
-            </header>
-        </HeaderWrapper>
-        <HeaderWrapper>
-            <Navbar bg="light" expand="lg" className="">
-            <img className="middle__img" src={backgroundImg} alt=""/>
-                <div className="middle">
-                        <div class="middle__text">
-                            <div className="middle__content">
-                                <div className="middle__detail">
-                                    <h3>Web Service Developer</h3>
-                                    <h1>김 효 인</h1>
-                                    <h2>안녕하세요</h2>
-                                    <h2>변화하는 트렌드에 맞춰 끊임없이 도전하며 성장하고,</h2>
-                                    <h2>세상에 즐거움을 주고싶은 개발자 입니다.</h2>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </Navbar>
-        </HeaderWrapper>
-        </>
-    );
+              </div>
+            </div>
+          </div>
+        </Navbar>
+      </HeaderWrapper>
+    </>
+  );
 };
 
 export default Header;

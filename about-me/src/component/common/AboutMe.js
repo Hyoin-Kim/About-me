@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { user,calendar,email,home,school,phone,profile } from '../../assets/image';
+import React from "react";
+import styled from "styled-components";
+import { user, calendar, email, home, school, phone, profile } from "../../assets/image";
 
 const AboutMeWrapper = styled.div`
 font-family: 'Noto Sans Display', sans-serif;
@@ -107,58 +107,58 @@ font-family: 'Noto Sans Display', sans-serif;
 `;
 
 const AboutMe = () => {
-    return (
-        <>
-            <AboutMeWrapper>
-                <div className="profile">
-                    <img className="profile__img" src={user} alt=""/>
-                    <h1 className="profile__title">ABOUT ME</h1>
-                </div>
-                <div className="main">
-                <img className="card__profile" src={profile} alt=" "/>
-                    <div className="card__main">
-                        <div className="card__detail">
-                            <img className="card__img" src={user} alt=""/>
-                            <div className="card__title">이름 : </div>
-                            <div className="card__content"> 김효인</div>
-                        </div>
-                        <div className="card__detail">
-                            <img className="card__img" src={calendar} alt=""/>
-                            <div className="card__title">생년월일 : </div>
-                            <div className="card__content"> 1998년 5월 6일</div>
-                        </div>
-                        <div className="card__detail">
-                            <img className="card__img" src={school} alt=""/>
-                            <div className="card__title">학력 : </div>
-                            <div className="card__content">서울여자대학교 정보보호학과</div>
-                        </div>
-                        <div className="card__detail">
-                            <img className="card__img" src={home} alt=""/>
-                            <div className="card__title">소재지 : </div>
-                            <div className="card__content">서울특별시 노원구</div>
-                        </div>
-                        <div className="card__detail">
-                            <img className="card__img" src={email} alt=""/>
-                            <div className="card__title">e-mail : </div>
-                            <div className="card__content">hi980506@naver.com</div>
-                        </div>
-                        <div className="card__detail">
-                            <img className="card__img" src={phone} alt=""/>
-                            <div className="card__title">연락처 : </div>
-                            <div className="card__content">010-3535-7683</div>
-                        </div>
-                        <div className="card__group">
-                        <span className="card__hash">#서비스플랫폼개발자</span>
-                        <span className="card__hash">#밝고긍정적</span>
-                        <span className="card__hash">#활발한소통능력</span>
-                        <span className="card__hash">#도전적</span>
-                        <span className="card__hash">#기획은취미</span>
-                        </div>
-                    </div>
-                </div>
-            </AboutMeWrapper>         
-        </>
-    );
+  return (
+    <>
+      <AboutMeWrapper>
+        <div className="profile">
+          <img className="profile__img" src={user} alt="" />
+          <h1 className="profile__title">ABOUT ME</h1>
+        </div>
+        <div className="main">
+          <img className="card__profile" src={profile} alt=" " />
+          <div className="card__main">
+            <div className="card__detail">
+              <img className="card__img" src={user} alt="" />
+              <div className="card__title">이름 : </div>
+              <div className="card__content"> 김효인</div>
+            </div>
+            <div className="card__detail">
+              <img className="card__img" src={calendar} alt="" />
+              <div className="card__title">생년월일 : </div>
+              <div className="card__content"> 1998년 5월 6일</div>
+            </div>
+            <div className="card__detail">
+              <img className="card__img" src={school} alt="" />
+              <div className="card__title">학력 : </div>
+              <div className="card__content">서울여자대학교 정보보호학과</div>
+            </div>
+            <div className="card__detail">
+              <img className="card__img" src={home} alt="" />
+              <div className="card__title">소재지 : </div>
+              <div className="card__content">서울특별시 노원구</div>
+            </div>
+            <div className="card__detail">
+              <img className="card__img" src={email} alt="" />
+              <div className="card__title">e-mail : </div>
+              <div className="card__content">hi980506@naver.com</div>
+            </div>
+            <div className="card__detail">
+              <img className="card__img" src={phone} alt="" />
+              <div className="card__title">연락처 : </div>
+              <div className="card__content">010-3535-7683</div>
+            </div>
+            <div className="card__group">
+              <span className="card__hash">#서비스플랫폼개발자</span>
+              <span className="card__hash">#밝고긍정적</span>
+              <span className="card__hash">#활발한소통능력</span>
+              <span className="card__hash">#도전적</span>
+              <span className="card__hash">#기획은취미</span>
+            </div>
+          </div>
+        </div>
+      </AboutMeWrapper>
+    </>
+  );
 };
 
 export default AboutMe;
