@@ -130,7 +130,7 @@ const Project = () => {
             <img className="skills__img" src={project} alt="" />
             <h1 className="skills__title">Projects</h1>
           </div>
-          <nav class="myskills">
+          <nav className="myskills">
             <div className="myskills__menu">
               <button
                 className="myskills__detail"

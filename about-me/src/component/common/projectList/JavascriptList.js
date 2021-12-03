@@ -1,7 +1,6 @@
 import { React, useState } from "react";
 import styled from "styled-components";
 import { Carousel } from "react-bootstrap";
-import { kikiImg } from "../../../assets/image";
 import { closeIcon, js, jsSlider, jsSlider2, jsSlider3, jsSlider4, jsSlider5 } from "../../../assets/image/index";
 
 const JsWrapper = styled.div`

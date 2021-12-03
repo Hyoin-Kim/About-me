@@ -113,7 +113,7 @@ const Activity = () => {
             <h1 className="skills__title">ACTIVITIES</h1>
           </div>
         </div>
-        <nav classname="skills__main">
+        <nav className="skills__main">
           <img className="skills__profile" src={HyoinProfile} alt="" />
           <div className="skills__detail">
             <div className="skills__content">
@@ -128,8 +128,8 @@ const Activity = () => {
               활동
             </div>
             <div className="skills__content">
-              <span className="skills__date">2019.01 - 2019.02 </span>Programming Guru2 수료 (ANDROID 프로젝트
-              "질문있슈" 진행)
+              <span className="skills__date">2019.01 - 2019.02 </span>Programming Guru2 수료 (ANDROID 프로젝트 질문있슈
+              진행)
             </div>
             <div className="skills__content">
               <span className="skills__date">2019.07 - 2019.11 </span>네트워크 응용분야 NET Challenge 공모전(은상 수상)

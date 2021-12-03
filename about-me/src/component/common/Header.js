@@ -48,13 +48,13 @@ const HeaderWrapper = styled.div`
     h1 span:nth-child(13){ animation-delay:.6s; }
     h1 span:nth-child(14){ animation-delay:.65s; }
 
-    @font-face {
-        src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
-        format("woff2");
-        font-family: "Meta";
-        font-style: normal;
-        font-weight: normal;
-    }
+@font-face {
+    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+      format("woff2");
+    font-family: "Meta";
+    font-style: normal;
+    font-weight: normal;
+  }
   
     .body {
         box-sizing: border-box;
@@ -79,7 +79,7 @@ const HeaderWrapper = styled.div`
         text-shadow: 10px 10px 0px #d6f4f4,
         15px 15px 0px #F5A9F2,
         20px 20px 0px #CC2EFA,
-        cursor: pointer;
+      cursor: pointer;
     }
     
     .header__title:hover {
@@ -116,6 +116,7 @@ const HeaderWrapper = styled.div`
             height : 80px;
             align-items : center;
             margin-top : 20px;
+            
         }
 
         &__menu{
@@ -265,7 +266,7 @@ const Header = () => {
         <Navbar bg="light" expand="lg" className="">
           <img className="middle__img" src={backgroundImg} alt="" />
           <div className="middle">
-            <div class="middle__text">
+            <div className="middle__text">
               <div className="middle__content">
                 <div className="middle__detail">
                   <h3>Web Service Developer</h3>

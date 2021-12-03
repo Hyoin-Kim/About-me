@@ -7,14 +7,7 @@ import {
   netChallenge3,
   netChallenge4,
   netChallenge5,
-  netChallenge6,
-  netChallenge7,
   netChallenge8,
-  kikiSlider,
-  kikiSlider2,
-  kikiSlider3,
-  kikiSlider4,
-  kikiSlider5,
 } from "../../../assets/image/index";
 
 const MlWrapper = styled.div`
