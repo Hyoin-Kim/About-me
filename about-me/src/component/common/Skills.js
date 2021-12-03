@@ -26,6 +26,12 @@ import {
 const SkillsWrapper = styled.div`
 
 font-family: 'Noto Sans KR', sans-serif;
+@media ${({ theme }) => theme.device.tablet} {
+    margin-top: 8.5rem;
+}
+@media ${({ theme }) => theme.device.mobile} {
+    margin-top: 23.5rem;
+}
 
     .skills{
         display : flex;
@@ -67,8 +73,9 @@ font-family: 'Noto Sans KR', sans-serif;
             background-color : white;
             border : 5px solid;
             border-color : #FFBF00;
-            width : 1000px;
-            height : 700px;
+            max-width:1000px;
+            width : 750wv;
+            height : 750hv;
             border-radius : 30px;
             margin : 40px;
         }
@@ -78,8 +85,10 @@ font-family: 'Noto Sans KR', sans-serif;
             background-color : white;
             border : 5px solid;
             border-color : #FFBF00;
-            width : 1000px;
-            height : 450px;
+            max-width:1000px;
+            width : 750wv;
+            min-height : 500px;
+            height : 750hv;
             border-radius : 30px;
             margin : 40px;
         }
@@ -89,8 +98,9 @@ font-family: 'Noto Sans KR', sans-serif;
             background-color : white;
             border : 5px solid;
             border-color : #FFBF00;
-            width : 1000px;
-            height : 300px;
+            max-width:1000px;
+            width : 750wv;
+            height : 750hv;
             border-radius : 30px;
             margin : 40px;
         }

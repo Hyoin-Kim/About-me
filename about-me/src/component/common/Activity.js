@@ -73,8 +73,8 @@ const ActivityWrapper = styled.div`
         }
 
         &__profile{
-            width : 40rem;
-            height : 40rem;
+            width : 50wh;
+            height : 50vh;
             display : inline-block;
             margin: 0px 30px 30px 50px;
         }
