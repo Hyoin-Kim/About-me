@@ -4,16 +4,22 @@ import { user,calendar,email,home,school,phone,profile } from '../../assets/imag
 
 const AboutMeWrapper = styled.div`
 font-family: 'Noto Sans Display', sans-serif;
+    @media ${({ theme }) => theme.device.tablet} {
+        margin-top: 8.5rem;
+    }
+    @media ${({ theme }) => theme.device.mobile} {
+        margin-top: 23.5rem;
+    }
     .profile{
         display : flex;
         justify-content : center;
 
         &__img{
-            margin-right : 20px;
-            width : 40px;
-            height : 40px;
+            margin-right : 1rem;
+            width : 2.5rem;
+            height : 2.5rem;
             display : flex;
-            margin-top :10px;
+            margin-top :0.5rem;
         }
 
         &__title{
@@ -46,9 +52,9 @@ font-family: 'Noto Sans Display', sans-serif;
 
         &__profile{
             display : inline-block;
-            margin : 0px 30px 30px 50px;
-            width : 400px;
-            height : 400px;
+            margin : 0px 3rem 3rem 5rem;
+            width : 50wh;
+            height : 50vh;
         }
 
         &__main{
@@ -56,9 +62,9 @@ font-family: 'Noto Sans Display', sans-serif;
         }
 
         &__img{
-            width : 30px;
-            height: 30px;
-            margin-right : 10px;
+            width : 2rem;
+            height: 2rem;
+            margin-right : 0.8rem;
         }
 
         &__title{
@@ -74,14 +80,16 @@ font-family: 'Noto Sans Display', sans-serif;
         }
 
         &__group{
-            padding-top : 20px;
+            padding-top : 2rem;
+            padding-bottom: 2rem;
         }
 
         &__hash{
             font-family: 'Noto Sans KR', sans-serif;
-            padding : 10px;
-            font-size : 20px;
+            padding : 1rem;
+            font-size : 1.2rem;
             cursor : pointer;
+            transition: all 0.5s;
         }
 
         &__hash:hover{
@@ -94,7 +102,7 @@ font-family: 'Noto Sans Display', sans-serif;
     .main{
         display : flex;
         justify-content : center;
-        margin-top : 30px;
+        margin-top : 3rem;
     }
 `;
 

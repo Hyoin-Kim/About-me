@@ -4,6 +4,12 @@ import {HyoinProfile, society} from '../../assets/image/index';
 
 const ActivityWrapper = styled.div`
     text-align: -webkit-center;
+    @media ${({ theme }) => theme.device.tablet} {
+        margin-top: 8.5rem;
+      }
+      @media ${({ theme }) => theme.device.mobile} {
+        margin-top: 23.5rem;
+      }
     .skills{
         display : flex;
         justify-content : center;
@@ -67,14 +73,14 @@ const ActivityWrapper = styled.div`
         }
 
         &__profile{
-            width : 400px;
-            height : 400px;
+            width : 40rem;
+            height : 40rem;
             display : inline-block;
             margin: 0px 30px 30px 50px;
         }
 
         &__content{
-            margin : 10px;
+            margin : 1rem;
         }
 
         &__footer{
