@@ -24,6 +24,7 @@ import {
   shoppingmall,
   shoppingmall2,
   githubSlider,
+  netflix,
 } from "../../../assets/image/index";
 
 const ProjectWrapper = styled.div`
@@ -353,6 +354,9 @@ const ReactProject = () => {
               <ModalWrapper>
                 <Carousel>
                   <Carousel.Item variant="dark">
+                    <img className="sop__slider" src={netflix} alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item variant="dark">
                     <img className="sop__slider" src={diaryApp} alt="" />
                   </Carousel.Item>
                   <Carousel.Item variant="dark">
@@ -371,7 +375,7 @@ const ReactProject = () => {
                 <div>
                   <h2 className="modal__title">개인 프로젝트 공부를 위한 Toy Project</h2>
                   <h5 className="modal__subtitle">
-                    Diary App, Shopping mall, Github profile finder, Clone Coding 등 진행{" "}
+                    Netflix, Diary App, Shopping mall, Github profile finder, Clone Coding 등 진행{" "}
                   </h5>
                   <hr className="modal__hr" />
                   <p>
@@ -379,8 +383,8 @@ const ReactProject = () => {
                     <span className="modal__o2Title"> 웹 사이트 리스트</span> 입니다.
                   </p>
                   <p>
-                    다이어리 앱(#1,#2), Ghibli 굿즈 쇼핑몰(#3,#4), Github profile finder(#5), Folin Clone Coding 등
-                    꾸준히 토이 프로젝트를 진행하였습니다.
+                    Netflix 합동세미나(#1), 다이어리 앱(#2,#3), Ghibli 굿즈 쇼핑몰(#4,#5), Github profile finder(#6),
+                    Folin Clone Coding 등 꾸준히 토이 프로젝트를 진행하였습니다.
                   </p>
                   <p>
                     React 공부를 중점적으로 하여 스터디와 세미나를 통해 코드리뷰 등 함께 공부하고 공유할수 있었습니다.

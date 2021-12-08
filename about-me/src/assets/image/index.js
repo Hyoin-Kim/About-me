@@ -78,3 +78,4 @@ export { default as netChallenge8 } from "./projectImg/netChallenge8.jpg";
 export { default as aboutmeSlider } from "./projectImg/aboutmeSlider.JPG";
 export { default as intern } from "./projectImg/intern.JPG";
 export { default as video } from "../video/video.mp4";
+export { default as netflix } from "../image/projectImg/NetflixSlider.JPG";
